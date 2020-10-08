@@ -1,4 +1,18 @@
+// Why the Car is third parameter in Car2
+// we have an array called Car2
+// array Car2 has 3 elements:
+// 1. a name value pair name - Bill
+// 2. a name value pair studentID - 344
+// 3. a reference to our CAR object : defined further down!
+// In JavaScript, we can put heterogeneous data types: either objects
+// or primitives in the same array!
+// JavaScript runtime environment supports hoisting:
+
 var Car2 = { "name": "Bill", "studentID": 344, Car }
+
+console.log("pt a: ", Car2[0]);
+
+
 
 function Car(make, model, year) {
     this.make = make;
