@@ -1,0 +1,9 @@
+var Car2 = { "name": "Bill", "studentID": 344, Car }
+
+function Car(make, model, year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+}
+var b = new Car("Ford", "Taurus", "1988 ");
+console.log("I am a ", b);
